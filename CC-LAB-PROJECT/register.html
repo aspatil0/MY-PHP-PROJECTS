@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Department Registration</title>
+</head>
+<body>
+    <style>
+        input{
+            font-size: 25px;
+            border: 2px solid black;
+            background-color: antiquewhite;
+        }
+        button{
+            padding: 10px;
+            margin-top: 25px;
+        }
+        body{
+          background-color: antiquewhite;
+        }
+    </style>
+  <h2 style="text-align: center; margin-top: 50px;">Register Your Department</h2>
+  <form action="register.php" method="POST" style=" margin-top: 50px; text-align: center;">
+    <input type="text" name="dept_name" placeholder="Department Name" required><br> <br>
+    <input type="email" name="email" placeholder="Official Email" required><br> <br>
+    <input type="password" name="password" placeholder="Password" required><br>
+    <button type="submit">Register</button>
+  </form>
+  <p style="text-align: center; margin-top: 25px; font-size: 20px;">Already have an account? <a href="index.html" style=" color: blue;">Login here</a></p>
+</body>
+</html>
