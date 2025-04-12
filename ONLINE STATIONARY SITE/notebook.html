@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESNARY |SHOPEE</title>
+    <link rel="shortcut icon" href="/desk/logo.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <style>
+         /* Cards section */
+         .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 15px;
+            transition: 0.5s ;
+        }
+
+        .card img {
+            width: 100%;
+            height: 230px;
+            border-radius: 10px;
+        }
+        .card:hover{transform: translateY(-35px);
+            background-color: rgb(255, 98, 0);
+            
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .card .cost {
+            color: #e91e63;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .scrollable-images img{
+            width: 400px;
+            height: 300px;
+            padding: 25px;
+        }
+        
+        .jio :hover{
+            background-color: #e91e63;
+            padding: 30px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar styles */
+        .navbar {
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 50px;
+            font-size: 20px;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+            
+        }
+
+        .navbar a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .navbar a:hover {
+            color: red;
+        }
+
+    </style>
+ <!-- Navbar -->
+ <!-- <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#items">Items</a>
+    <a href="#contact">Contact Us</a>
+</nav> -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Category Dropdown</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;;
+    }
+
+    /* Navbar Styling */
+    .navbar {
+      background-color: #333;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 15px;
+    }
+
+    .navbar a:hover {
+      background-color: #575757;
+      border-radius: 5px;
+    }
+
+    /* Dropdown Styling */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 200px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: #333;
+      padding: 10px 15px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .card{
+        margin-bottom: 55px;
+        padding: 25px;
+    }
+
+    /* Responsive Styling */
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .dropdown-content {
+        min-width: 100%;
+      }
+    }
+    body{
+        background-color: #fff200;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="index.html">HOME</a>
+    <a href="printing-services.html">Printing services</a>
+    <div class="dropdown">
+      <a href="#">Stationary &#9662;</a> <!-- Down arrow for dropdown -->
+      <div class="dropdown-content">
+        <a href="notebook.html">Notebooks |Pens</a>
+        <a href="kids.html">Kids</a>
+        <!-- <a href="files-folder.html">Files & Folders</a> -->
+        <a href="art.html">Art Supplies</a>
+      </div>
+    </div>
+    <div class="dropdown">
+        <a href="#">Books &#9662;</a> <!-- Down arrow for dropdown -->
+        <div class="dropdown-content">
+          <a href="fantasy.html">Fantasy</a>
+          <a href="scifi.html">Science Fiction</a>
+          <a href="mystery.html">Mystery</a>
+          <a href="romance.html">Romance</a>
+          <a href="comic.html">Comics</a>
+          <a href="biography.html">Biography</a>
+          <!-- <a href="files-folder.html">Files & Folders</a> -->
+        </div>
+      </div>
+    <a href="craft_supplies.html">Craft Supplies</a>
+    <a href="contact-us.html">Contact Us</a>
+  </div>
+</body>
+</html>
+
+
+    
+
+
+
+    <div class="cards-container">
+        
+        
+        <!-- Repeat similar cards -->
+        
+        <div class="card">
+          <img src="/pics/diary.jpg" alt="Diary">
+          <h3>Personal Diary</h3>
+          <p>A beautifully crafted diary with premium paper for writing your thoughts.</p>
+          <p class="cost">₹800</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/nb.webp" alt="Notebook">
+          <h3>Leather Notebook</h3>
+          <p>Elegant leather-bound notebook with smooth pages for everyday use.</p>
+          <p class="cost">₹800</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/cyndreella.jpg" alt="Fairy Tale Book">
+          <h3>Cinderella's Fairy Tales</h3>
+          <p>A classic collection of fairy tales, including the story of Cinderella.</p>
+          <p class="cost">₹800</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/coloured-pencils-745798.webp" alt="Colored Pencils">
+          <h3>Set of 24 Colored Pencils</h3>
+          <p>Bright, vibrant colored pencils for all your creative endeavors.</p>
+          <p class="cost">₹800</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/pencisl wast.webp" alt="Pencils">
+          <h3>Premium Pencils</h3>
+          <p>High-quality pencils that provide smooth writing and shading.</p>
+          <p class="cost">₹800</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/skicy notes.jpg" alt="Sticky Notes">
+          <h3>Sticky Notes</h3>
+          <p>Colorful sticky notes perfect for reminders and quick notes.</p>
+          <p class="cost">₹800</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/kidspens.jpg" alt="Kids' Pens">
+          <h3>Kids' Writing Pens</h3>
+          <p>Colorful pens designed specifically for children, with easy grip and smooth writing.</p>
+          <p class="cost">₹500</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/luxpen.webp" alt="Luxury Pen">
+          <h3>Luxury Fountain Pen</h3>
+          <p>Elegant fountain pen with a smooth writing experience for professionals.</p>
+          <p class="cost">₹600</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/kiddiary.webp" alt="Kids' Diary">
+          <h3>Kids' Personalized Diary</h3>
+          <p>A cute and colorful diary for kids to write and draw in.</p>
+          <p class="cost">₹500</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/diariii.webp" alt="Luxury Diary">
+          <h3>Luxury Leather Diary</h3>
+          <p>A premium leather-bound diary, perfect for journaling and notes.</p>
+          <p class="cost">₹600</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/proj paper.webp" alt="Project Paper">
+          <h3>Project Paper</h3>
+          <p>High-quality paper for all your academic and creative projects.</p>
+          <p class="cost">₹500</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/book10.avif" alt="Fiction Book">
+          <h3>The Last Adventure</h3>
+          <p>A gripping fiction book filled with suspense and unexpected twists.</p>
+          <p class="cost">₹500</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/book11.jpg" alt="Self-Help Book">
+          <h3>Path to Success</h3>
+          <p>Inspirational self-help book that guides you towards achieving your goals.</p>
+          <p class="cost">₹500</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/book 12.jpg" alt="Fantasy Novel">
+          <h3>The Realm of Magic</h3>
+          <p>A thrilling fantasy novel that takes you on a magical adventure.</p>
+          <p class="cost">₹500</p>
+      </div>
+      
+      <div class="card">
+          <img src="/pics/book15.1.jpg" alt="Biography">
+          <h3>Life of a Legend</h3>
+          <p>A captivating biography that chronicles the life of a historical legend.</p>
+          <p class="cost">₹500</p>
+      </div>
+      
+
+        
+        <!-- Add 6 more cards as needed -->
+    </div>
+</body>
+</html>
