@@ -1,6 +1,5 @@
 <?php
 session_start();
-$conn = new mysqli("localhost", "root", "", "lab_booking");
 
 $dept_id = $_POST['dept_id'];
 $password = $_POST['password'];
