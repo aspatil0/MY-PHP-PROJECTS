@@ -4,7 +4,6 @@ if (!isset($_SESSION['dept'])) {
     header("Location: index.php");
     exit();
 }
-$conn = new mysqli("localhost", "root", "", "lab_booking");
 $lab = $conn->query("SELECT * FROM lab_status LIMIT 1")->fetch_assoc();
 ?>
 <!DOCTYPE html>
@@ -28,7 +27,6 @@ $lab = $conn->query("SELECT * FROM lab_status LIMIT 1")->fetch_assoc();
     <div class="lab-status">
       <?php
       if ($lab['booked']) {
-          echo "Booked by: ".$lab['booked_by']."<br>Available after: ".$lab['free_time'];
       } else {
           echo "Lab is currently available.";
       }
