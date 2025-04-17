@@ -5,6 +5,7 @@ if (isset($_SESSION['dept'])) {
     exit();
 }
 ?>
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
