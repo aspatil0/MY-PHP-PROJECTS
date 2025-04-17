@@ -32,6 +32,7 @@ if (isset($_SESSION['dept'])) {
       <button type="submit">Login</button>
     </form>
     <?php if (isset($_GET['error'])) echo "<p>".$_GET['error']."</p>"; ?>
+    
   </div>
 </body>
 </html>
