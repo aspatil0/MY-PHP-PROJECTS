@@ -5,7 +5,7 @@ This repository contains all my major **academic, IoT, and full-stack web develo
 These projects showcase my skills in **HTML, CSS, JavaScript, PHP, MySQL**, and **IoT-based system design**.
 
 --- 
-
+    
 ## 📁 Projects Included
 
 | # | Project Name                  | Description                                                                 | Technologies Used                 |
