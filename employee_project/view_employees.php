@@ -1,8 +1,12 @@
 <?php
 include 'db.php';
 $result = $conn->query("SELECT * FROM employees");
+
+//QUESRY TO GET INFO FROM OUR DB SELCT AND THEN RUN IT AS IT GET DATA STORED FROM THE DATABSE AND THEN DISPLAY IT { ADD PROPER DB ANME }
 ?>
-<!DOCTYPE html>
+
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
