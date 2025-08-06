@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
-$user = "root"; 
-$pass = ""; 
-$dbname = "company_db";
+$host = "localhost"; //STAY AS IT IS
+$user = "root";  //STAY AS IT IS
+$pass = "";  //NULL
+$dbname = "company_db";  //IF YOU ARE USING THIS ADD HERE YOUR DB NAME
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
