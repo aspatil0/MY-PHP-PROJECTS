@@ -1,0 +1,22 @@
+Open browser and go to:
+👉 http://localhost/attendance_system/attendance.php
+
+You’ll see:
+
+Attendance Report (table)
+
+Form to Add Student
+
+Form to Update Attendance
+
+Students with <75% attendance will be shown as Defaulter in red.
+
+
+
+Create Database
+
+Open http://localhost/phpmyadmin.
+
+Create a database named attendance_system.
+
+Run this SQL inside it:
