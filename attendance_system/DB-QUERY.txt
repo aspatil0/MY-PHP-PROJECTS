@@ -1,0 +1,13 @@
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    roll_no VARCHAR(20) UNIQUE NOT NULL
+);
+
+CREATE TABLE attendance (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    total_classes INT DEFAULT 0,
+    attended_classes INT DEFAULT 0,
+    FOREIGN KEY (student_id) REFERENCES students(id)
+);
