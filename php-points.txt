@@ -1,0 +1,193 @@
+1. PHP Basics
+
+Installing PHP, Apache/Nginx, XAMPP/WAMP/LAMP, Composer
+
+Syntax, comments, whitespace
+
+Variables, constants, data types (string, int, float, boolean, array, object, null)
+
+Operators: arithmetic, comparison, logical, assignment, bitwise
+
+Type juggling, type casting
+
+String functions (strlen, str_replace, strpos, explode, implode)
+
+Array functions (array_push, array_pop, array_merge, array_filter, array_map)
+
+Superglobals: $_GET, $_POST, $_REQUEST, $_SESSION, $_COOKIE, $_FILES, $_SERVER
+
+Conditional statements: if, else, elseif, switch
+
+Loops: for, foreach, while, do-while
+
+2. Functions and Scope
+
+Defining functions, arguments, default values
+
+Variable scope: global, local, static
+
+Anonymous functions and closures
+
+Recursive functions
+
+Return values and type declarations
+
+3. OOP in PHP
+
+Classes and objects
+
+Properties and methods
+
+Access modifiers: public, private, protected
+
+__construct() and __destruct()
+
+Inheritance, parent::, overriding methods
+
+Interfaces and abstract classes
+
+Traits
+
+Static methods and properties
+
+Namespaces and autoloading (PSR-4)
+
+4. Advanced PHP Concepts
+
+Error handling: try-catch, throw, Exception, Error
+
+Type declarations and strict types
+
+Magic methods: __get, __set, __call, __toString, __invoke
+
+Reflection API
+
+Generators (yield)
+
+Anonymous classes
+
+5. File Handling
+
+Reading/writing files: fopen, fread, fwrite, file_get_contents, file_put_contents
+
+File uploads with $_FILES
+
+Working with CSV, JSON, XML
+
+File permissions, chmod, unlink, rename, copy
+
+6. Forms and User Input
+
+GET vs POST requests
+
+Form validation and sanitization
+
+Handling file uploads
+
+Preventing XSS and SQL Injection
+
+Sessions and cookies
+
+7. Database with PHP
+
+MySQLi (procedural and OOP)
+
+PDO (PHP Data Objects) and prepared statements
+
+CRUD operations
+
+Transactions
+
+Joins, indexing, query optimization
+
+Handling errors and exceptions
+
+8. PHP Security
+
+Data validation and sanitization
+
+Password hashing (password_hash, password_verify)
+
+SQL Injection prevention (Prepared statements)
+
+CSRF tokens
+
+XSS protection
+
+Session security
+
+9. PHP & Web APIs
+
+REST API creation
+
+Working with JSON and XML
+
+cURL and HTTP requests
+
+Authentication: API keys, OAuth
+
+Response headers and status codes
+
+10. PHP with Modern Practices
+
+Composer and dependency management
+
+PSR standards (PSR-1, PSR-2, PSR-4)
+
+Autoloading classes
+
+Namespaces and organizing large projects
+
+MVC architecture understanding
+
+11. Frameworks (Advanced Expert Level)
+
+Laravel: Routing, Eloquent ORM, Blade, Middleware, Jobs, Events
+
+Symfony: Routing, Twig templates, Dependency Injection, Bundles
+
+CodeIgniter / Yii (optional, for older projects)
+
+12. Testing & Debugging
+
+Xdebug and step debugging
+
+Logging and error reporting
+
+PHPUnit for unit testing
+
+Mocking and test-driven development (TDD)
+
+13. Performance & Optimization
+
+Opcode caching (OPcache)
+
+Database query optimization
+
+Session management and caching strategies
+
+Profiling and memory management
+
+14. Deployment & Ecosystem
+
+Setting up on Linux servers
+
+Apache/Nginx configuration
+
+SSL, security best practices
+
+Version control (Git)
+
+CI/CD pipelines
+
+Tips to become an expert:
+
+Build real projects (CMS, e-commerce, API, dashboard).
+
+Contribute to open-source PHP projects.
+
+Read PHP RFCs and updates regularly.
+
+Master debugging, profiling, and performance tuning.
+
+Stay updated with PHP 8.x features (JIT, attributes, union types, match expressions).
