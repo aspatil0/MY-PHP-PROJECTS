@@ -1,4 +1,4 @@
-1. PHP Basics
+**1. PHP Basics**
 
 Installing PHP, Apache/Nginx, XAMPP/WAMP/LAMP, Composer
 
